@@ -19,7 +19,7 @@ class AppTheme {
       inputDecorationTheme: inputDecorationTheme);
 
   static final ThemeData darkTheme = ThemeData(
-      scaffoldBackgroundColor: Colors.black,
+      scaffoldBackgroundColor: Colors.black12,
       brightness: Brightness.dark,
       textTheme: darkTextTheme,
       inputDecorationTheme: inputDecorationTheme);
@@ -45,7 +45,7 @@ class AppTheme {
   );
 
   static final TextStyle _titleLight = TextStyle(
-    color: Colors.black,
+    color: Colors.white,
     fontSize: 3.5 * SizeConfig.textMultiplier,
   );
 
